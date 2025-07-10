@@ -1,0 +1,18 @@
+# Terraform generated files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Sensitive variable files (if used)
+# *.tfvars # If you use tfvars files for sensitive data
+# secret.tfvars # Example for a specific sensitive tfvars file
+
+# Lambda deployment packages (if generated locally)
+*.zip
+*.jar
+
+# Local .ssh keys (if you ever copy them into the project directly, which is generally not recommended)
+id_rsa.pub # If you were to copy ~/.ssh/id_rsa.pub into the project root
